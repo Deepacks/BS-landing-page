@@ -1,4 +1,47 @@
 
+@media only screen and (max-width: 1020px) {
+    body .title-padding {
+        padding: 3% 7% 42%;
+    }
+    
+    .title-img {
+        top: 482px;
+    }
+
+    /* Features */
+    body #features {
+        padding: 7% 7%;
+    }
+
+    /* Testimonials */
+    body .carousel-item {
+        padding: 7% 9%;
+    }
+
+    .control-left {
+        position: absolute;
+        left: 14%;
+    }
+
+    .control-right {
+        position: absolute;
+        right: 14%;
+    }
+}
+
+.orange {
+    background-color: #ef8172;
+}
+
+.printed {
+    position: absolute;
+    z-index: -1;
+}
+
+.kek {
+    position: static;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -74,17 +117,6 @@ h3 {
     right: 20%;
 }
 
-@media only screen and (max-width: 1020px) {
-    .title-padding {
-        padding: 3% 15% 42%;
-    }
-    
-
-    .title-img {
-        top: 482px;
-    }
-}
-
 /* Features Section*/
 
 #features {
@@ -116,7 +148,6 @@ h3 {
 
 #testimonials {
     text-align: center;
-    background-color: #ef8172;
     color: #fff;
 }
 
@@ -133,7 +164,6 @@ h3 {
 /* Press Section */
 
 #press{
-    background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }

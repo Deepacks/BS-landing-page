@@ -140,7 +140,8 @@ h3 {
 .download-button {
     margin: 7% 3% 5% 0;
     width: 250px;
-    height: 60px;
+    height: 70px;
+    font-size: 1.4rem;
 }
 
 /* Title Image */
@@ -232,4 +233,37 @@ h3 {
     font-size: 1.7rem;
     width: 70%;
     margin: 10px auto;
+}
+
+/* Call to Action Section */
+
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 15% 25% 9%;
+}
+
+.action-phrase {
+    font-size: 3.5rem;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    margin: 7% auto;
+}
+
+.copyright {
+    color: #8f8f8f;
+    font-size: 1.4rem;
+}
+
+.social {
+    font-size: 1.8rem;
+    margin: 0 20px 30px;
+    text-decoration: none;
+    color: #212529;
 }

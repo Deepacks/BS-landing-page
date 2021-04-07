@@ -24,8 +24,12 @@
     }
 
     body .nav-link {
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-align: right;
+    }
+
+    body h1 {
+        font-size: 5.3rem;
     }
 
     .title-mobile-sizer {
@@ -33,17 +37,22 @@
         margin: 0 auto;
     }
 
+    .title-text-mobile-sizer {
+        margin: 30px 0 60px;
+    }
+
     body .download-button {
         width: 400px;
         height: 85px;
         margin: 4% auto;
-        font-size: 1.7rem;
+        font-size: 2.3rem;
     }
     
     body .title-img {
         position: static;
         transform: rotate(0);
-        margin-top: 3%;
+        margin: 20px 0 50px;
+
     }
 
     /* Features */
@@ -52,14 +61,19 @@
     }
 
     h3 {
-        font-size: 2.8rem;
+        font-size: 4rem;
     }
 
     body .feature-text {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    .feature-box {
+        margin: 50px 0 50px;
     }
 
     /* Testimonials */
+
     body .carousel-item {
         padding: 7% 9%;
     }
@@ -72,6 +86,11 @@
     .control-right {
         position: absolute;
         right: 14%;
+    }
+
+    /* Press */
+    #press {
+        margin-top: 130px;
     }
 }
 
@@ -209,7 +228,7 @@ h3 {
 }
 
 .press-logo {
-    width: 15%;
+    width: 80%;
     margin: 20px 20px 50px;
 }
 

@@ -29,11 +29,11 @@
     }
 
     body h1 {
-        font-size: 5.3rem;
+        font-size: 6rem;
     }
 
     .title-mobile-sizer {
-        width: 75%;
+        width: 87%;
         margin: 0 auto;
     }
 
@@ -51,7 +51,7 @@
     body .title-img {
         position: static;
         transform: rotate(0);
-        margin: 20px 0 50px;
+        margin: 60px 0 20px;
 
     }
 
@@ -61,7 +61,7 @@
     }
 
     h3 {
-        font-size: 4rem;
+        font-size: 4.6rem;
     }
 
     body .feature-text {
@@ -75,7 +75,21 @@
     /* Testimonials */
 
     body .carousel-item {
-        padding: 7% 9%;
+        padding: 12% 8.6% 0;
+        height: 760px;
+    }
+
+    body .testimonial-text {
+        font-size: 3.8rem;
+    }
+
+    body .testimonial-image {
+        width: 15%;
+    }
+
+    em {
+        font-size: 2rem;
+        line-height: 4;
     }
 
     .control-left {
@@ -90,7 +104,33 @@
 
     /* Press */
     #press {
-        margin-top: 130px;
+        margin-top: 60px;
+    }
+
+    body .press-mobile-sizer {
+        padding: 0 6%;
+    }
+
+    body .press-logo-mobile-sizer {
+        width: 70%;
+    }
+
+    /* Pricing */
+    body .pricing-mobile-sizer {
+        padding: 6% 3% 8%;
+    }
+
+    .pricing-title-mobile-sizer {
+        font-size: 3.2rem;
+    }
+
+    body .pricing-details {
+        font-size: 2rem;
+        margin-bottom: 60px;
+    }
+
+    .card-header-mobile-sizer {
+        font-size: 3rem;
     }
 }
 

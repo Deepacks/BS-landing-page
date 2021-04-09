@@ -3,12 +3,24 @@
 
 @media (max-width: 991px) {
 
+    body .container-fluid {
+        padding: 7% 3%;
+    }
+
+    body .big-heading {
+        font-size: 6rem;
+    }
+
+    body #cta .big-heading {
+        font-size: 4.2rem;
+    }
+
     /* Title Section */
     #title {
         text-align: center;
     }
 
-    body .title-padding {
+    body #title .container-fluid {
         padding: 3% 7%;
     }
 
@@ -30,13 +42,14 @@
         text-align: right;
     }
 
-    body h1 {
-        font-size: 6rem;
-    }
-
-    .title-ms {
+    .title-box-ms {
         width: 87%;
         margin: 0 auto;
+        text-align: center;
+    }
+
+    .phone-box-ms {
+        text-align: center;
     }
 
     .big-heading-ms {
@@ -58,9 +71,6 @@
     }
 
     /* Features */
-    body #features {
-        padding: 7% 7%;
-    }
 
     h3 {
         font-size: 4.6rem;
@@ -105,8 +115,9 @@
     }
 
     /* Press */
-    #press {
+    body #press {
         margin-top: 60px;
+        padding-bottom: 50px;
     }
 
     body .press-ms {
@@ -122,17 +133,34 @@
         padding: 6% 3% 8%;
     }
 
-    .pricing-title-ms {
+    body .pricing-title-ms {
         font-size: 3.2rem;
+        margin: 30px auto 16px;
     }
 
     body .pricing-details {
         font-size: 2rem;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
 
     .card-header-ms {
         font-size: 3rem;
+    }
+
+    body .pricing-button {
+        height: 70px;
+        font-size: 2.2rem;
+    }
+
+    /* Footer */
+
+    body #footer {
+        margin: 100px auto 60px;
+    }
+
+    body .social {
+        font-size: 2.5rem;
+        margin: auto 40px 30px;
     }
 }
 
